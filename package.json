@@ -1,0 +1,23 @@
+{
+  "name": "express-curl",
+  "version": "1.0.0",
+  "description": "Print equivalent curl of express requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilnarain/express-curl.git"
+  },
+  "keywords": [
+    "express",
+    "curl"
+  ],
+  "author": "Sahil Narain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilnarain/express-curl/issues"
+  },
+  "homepage": "https://github.com/sahilnarain/express-curl#readme"
+}
