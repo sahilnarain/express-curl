@@ -23,10 +23,10 @@ const _buildCurl = function (params) {
       }
 
       if (params.body) {
-        for (let key in params.body) {
-          if (params.headers && params.headers['content-type'] && params.headers['content-type'] === 'application/json') {
-            _body += `-d '${JSON.stringify(params.body)}' `;
-          } else {
+        if (params.headers && params.headers['content-type'] && params.headers['content-type'] === 'application/json') {
+          _body += `-d '${JSON.stringify(params.body)}' `;
+        } else {
+          for (let key in params.body) {
             _body += `-d '${key}=${params.body[key]}' `;
           }
         }

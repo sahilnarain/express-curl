@@ -1,6 +1,6 @@
 {
   "name": "express-curl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Print equivalent curl of express requests",
   "main": "index.js",
   "scripts": {
